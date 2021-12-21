@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    padding: 0.5%;
+}
+
+*{
+    height: 84vh;
+}
+
+h1{
+    height: 12%;
+}
+
+
+.gal{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 40vh; */
+}
+
+.gal>#left{
+    display: grid;
+    grid-template-rows: 25vh 25vh 25vh;
+}
+
+#one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right{
+    display: grid;
+    grid-template-rows: 35vh 35vh;
+}
+
+#tan>img{
+    width: 15vw;
+    height: 20vh;
+}
+
+#sec>img{
+    width: 35vw;
+    height: 20vh;
+}
+
+#cos>img{
+    width: 35vw;
+    height: 30vh;
+}
